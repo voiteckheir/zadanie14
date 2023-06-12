@@ -1,0 +1,7 @@
+
+docker build --build-arg VERSION=1.1 -t tchzad1:v1 .
+docker run -d -p 8080:80 --name zad1cz1 tchzad1:v1
+
+docker stop zad1cz1
+docker rm zad1cz1
+
