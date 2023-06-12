@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: voiteckheir/tch-lab14:eb_frontend
+    ports:
+      - "80:80"
