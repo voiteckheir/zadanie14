@@ -1,5 +1,65 @@
-<h1>Technologie chmurowe - Zadanie 1</h1>
+<h1>TCH-lab14</h1>
 # Wojciech Dziedzic
+
+
+# zad
+głównie używamy lab12.99+14 
+oraz końcówka wykład 10 wraz z dodatkiem<br/>
+i wykład 11<br/>
+
+bazujemy na Zadaniu 1<br/>
+
+PRZED<br/>
+Założyć konto na aws, wykład 10<br/>
+założyć usera do aws cli<br/>
+zainstalować aws cli, oraz skonfigurować go<br/>
+zainstalować aws eb cli (elastic beanstalk)<br/>
+
+do instalaci aws oraz aws eb cli  śledzimy przykłądy w pdf oraz polecam linki do dokumentacji - są w pdf<br/>
+ eb staramy sie zainstalować manualnie<br/>
+do ew pomocy przy instalacji aws eb cli<br/>
+https://www.youtube.com/watch?v=LcIpHF7JbZw <br/>
+https://gist.github.com/navid-taheri/7d6879df3446b38b864fcb7ac1b04ab3 <br/>
+potrzebny jest też do tego python oraz pip<br/>
+
+zainstalować gh cli (github) (jak nie ma)<br/>
+
+założyć repo na githubie <br/>
+
+dodać do niego plik .github/workflows/main.yml<br/>
+
+do tego repo należy dodać sekrety - token do dockerhuba oraz do aws<br/>
+DOCKERHUB_USERNAME<br/>
+DOCKERHUB_TOKEN<br/>
+
+je bezpośrednio bota którego tworzymy jako nowege usera w koncie na aws<br/>
+AWS_ACCESS_KEY_ID <br/>
+AWS_SECRET_ACCESS_KEY<br/>
+
+zalogować sie na dockerhub<br/>
+
+
+najpierw tworzymy nowe repo na Dockerhubie np. voiteckheir/tch-lab14<br/>
+
+
+w CMD<br/>
+Gdy jesteśmy w katalogu z zadaniem<br/>
+
+do uruchomienia maszyny EB<br/>
+
+`eb init`<br/>
+
+`eb create zadanie14-env`<br/>
+
+`gh workflow list`<br/>
+
+`gh workflow run <i>numer_workflowa</i>`<br/>
+
+poda komende jak to podglądać, ale można tez an przeglądarce - github action
+coś jak gh run list --workflow=main.yml
+
+
+zostawiam rzeczy z poprzedniego zadania na zaś<br/>
 
 # Część 1 (Obowiązkowa)
 ## 1.1
